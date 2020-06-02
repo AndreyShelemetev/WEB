@@ -1,0 +1,386 @@
+.clear {
+    clear: both;
+}
+
+.main_container {
+    margin: 0 auto;
+    padding: 43px 0 43px 77px;
+    float: left;
+    max-width: 1439px;
+}
+
+.header {
+    position: relative;
+}
+
+.header .logo {
+    float: left;
+    font-family: 'Crete Round', serif;
+    font-size: 34px;
+    color: #060c31;
+    cursor: pointer;
+    width: 40%;
+}
+
+.header .top {
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    width: 60%;
+}
+
+.menu {
+    float: left;
+    position: relative;
+}
+
+.menu_item {
+    display: inline;
+}
+
+.menu_link {
+    text-decoration: none;
+    padding: 0 36px 0 0;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: bold;
+    color: #060c31;
+}
+
+
+.top_button {
+    float: left;
+    margin-left: 3px;
+    width: 10%;
+}
+
+.promo {
+    position: relative;
+    padding-top: 68px;
+    padding-left: 113px;
+    box-sizing: border-box;
+}
+
+.promo_info {
+    position: relative;
+    padding-top: 100px;
+    float: left;
+    width: 45%;
+    box-sizing: border-box;
+
+}
+
+.promo_title {
+    position: relative;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 58px;
+    color: #060c31;
+    margin-top: -7px;
+    font-weight: normal;
+    line-height: 1.1;
+    max-width: 450px;
+}
+
+.promo_text {
+    margin-top: 43px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.87;
+    color: #060c31;
+    max-width: 400px;
+}
+
+.promo_button_start {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    margin: 53px 18px 0 0;
+    width: 152px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #233fe2;
+    cursor: pointer;
+    border: none;
+}
+
+.promo_button_create {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: 165px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid 2px #ffb0b1;
+    background-color: #fff;
+    cursor: pointer;
+    color: #060c31;
+}
+
+.top_button .create {
+    font-family: 'Lato', sans-serif;
+    width: 150px;
+    height: 46px;
+    font-weight: bold;
+    border-radius: 23px;
+    border: solid 2px #ffb0b1;
+    background-color: #fff;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.promo_image {
+    float: left;
+    padding: 29px 0 0 48px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.adaptive_image {
+    max-width: 100%;
+}
+
+.footer {
+    padding: 96px 0 0 200px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.footer .partners .partner {
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+    padding-left: 104px;
+}
+
+.menuToggle {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hamburger {
+    float: right;
+    margin-right: 120px;
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    width: 1.25em;
+    height: 0.8em;
+    border-top: 0.2em solid #000;
+    border-bottom: 0.2em solid #000;
+    display: none;
+}
+
+.hamburger:before {
+    content: "";
+    position: absolute;
+    top: 0.3em;
+    left: 0;
+    width: 100%;
+    border-top: 0.2em solid #000;
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .header .logo {
+        width: 20%;
+    }
+
+    .header .top {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .main_container {
+        padding-left: 0;
+    }
+
+    .footer {
+        padding-top: 46px;
+        padding-left: 30px;
+    }
+
+    .promo {
+        padding-left: 73px;
+        padding-right: 73px;
+        padding-top: 40px;
+    }
+
+    .promo_info {
+        padding-top: 0;
+    }
+
+    .footer .partners .partner {
+        padding-left: 90px;
+    }
+
+    .header .logo {
+        width: 30%;
+        padding-left: 73px;
+        box-sizing: border-box;
+    }
+
+    .header .top {
+        width: 70%;
+    }
+
+    .promo_title {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+
+    .promo_title {
+        font-size: 38px;
+    }
+
+    .promo_button_start {
+        width: 130px;
+        margin-top: 10px;
+    }
+
+    .promo_button_create {
+        width: 140px;
+    }
+
+    .footer .partners .partner {
+        padding-left: 60px;
+    }
+
+    .header .top {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger:before {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 865px) {
+
+    .promo_info {
+        width: 100%;
+    }
+
+    .promo_image {
+        width: 100%;
+        padding: 0;
+    }
+
+    .promo_title {
+        font-size: 50px;
+    }
+
+    .promo_button_start {
+        width: 152px;
+    }
+
+    .promo_button_create {
+        width: 165px;
+    }
+
+    .footer {
+        padding-top: 0;
+    }
+
+    .footer .partners .partner {
+        padding-left: 40px;
+    }
+
+    .hamburger {
+        margin-right: 80px;
+        margin-top: 10px;
+        width: 2em;
+        height: 0.99em;
+        border-top: 0.3em solid #000;
+        border-bottom: 0.3em solid #000;
+    }
+
+    .hamburger:before {
+        border-top: 0.35em solid #000;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .promo_title {
+        font-size: 40px;
+    }
+
+    .promo {
+        padding-top: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer .partners .partner {
+        padding-right: 20px;
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .header .logo {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .hamburger {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .hamburger {
+        margin-right: 35px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .promo_title {
+        font-size: 35px;
+    }
+
+    .footer .partners .partner {
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+
+    .promo_button_start {
+        width: 100px;
+    }
+
+    .promo_button_create {
+        width: 120px;
+    }
+
+    .hamburger {
+        margin-right: 30px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+
+    .promo_button_start {
+        width: 90px;
+        font-size: 12px;
+    }
+
+    .promo_button_create {
+        width: 110px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,23 @@
+/*ноутбук с маленьким экраном*/
+@media screen and (max-width: 1366px)
+{
+    
+}
+
+/*планшет в альбомной ориентации*/
+@media screen and (max-width: 1024px)
+{
+    
+}
+
+/*планшет в портретной ориентации*/
+@media screen and (max-width: 768px)
+{
+    
+}
+
+/*смартфоны*/
+@media screen and (max-width: 480px)
+{
+    
+}
