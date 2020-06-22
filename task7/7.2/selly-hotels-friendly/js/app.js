@@ -8,7 +8,7 @@ var age = prompt('Укажите ваш возраст');
 if (age < 16) {
     var promoWrapper = document.getElementById('promoWrapper');
     promoWrapper.classList.add('aquapark');
-} else if (age >= 16 && age <= 35) {
+} else if (age > 16 && age <= 35) {
     var promoWrapper = document.getElementById('promoWrapper');
     promoWrapper.classList.add('club');
 }
